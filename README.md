@@ -1,5 +1,6 @@
 # Excel for Machine Learning
 ## A No-Code Data Science Studio for Data Preprocessing, EDA, Feature Engineering, and NLP
+![Project Banner](assets/hero-image.png)
 
 ---
 
