@@ -1,0 +1,50 @@
+col1,col2=st.columns([1,2],border=True)
+      radio_options=col1.radio("Advanced Options",["Extract Tags","Extract noun phrases","Sentiment Analysis","Singularize",
+                                                   "Pluralize","Lematize","Definitions","Spelling Correction","Spell Check",
+                                                   "Word Counts","N Grams","Text Classification"])
+      if option =="Extract Tags":
+        selected_column=col2.selectbox("Select Column",self.dataset.tolist())
+        if col2.button("Apply",use_container_width=True,type='primary'):
+          data=self.dataset.copy(deep=True)
+          data[f"{selected_column}(Tags)"]=data.apply(TextBlob(data[selected_column]).tags)
+          col2.dataframe(data)
+      elif option =="Extract noun phrases":
+        selected_column=col2.selectbox("Select Column",self.dataset.tolist())
+        if col2.button("Apply",use_container_width=True,type='primary'):
+          data=self.dataset.copy(deep=True)
+          data[f"{selected_column}(Tags)"]=data.apply(TextBlob(data[selected_column]).noun_phrases)
+          col2.dataframe(data)
+      elif option == "Sentiment Analysis":
+        selected_column=col2.selectbox("Select Column",self.dataset.tolist())
+        if col2.button("Apply",use_container_width=True,type='primary'):
+          data=self.dataset.copy(deep=True)
+          data[f"{selected_column}(Tags)"]=data.apply(TextBlob(data[selected_column]).sentiment)
+          col2.dataframe(data)
+      elif option=="Singularize":
+        selected_column=col2.selectbox("Select Column",self.dataset.tolist())
+        if col2.button("Apply",use_container_width=True,type='primary'):
+          data=self.dataset.copy(deep=True)
+          data[f"{selected_column}(Tags)"]=data.apply(TextBlob(data[selected_column]).words.singularize)
+          col2.dataframe(data)
+      elif option=="Pluralize":
+        selected_column=col2.selectbox("Select Column",self.dataset.tolist())
+        if col2.button("Apply",use_container_width=True,type='primary'):
+          data=self.dataset.copy(deep=True)
+          data[f"{selected_column}(Tags)"]=data.apply(TextBlob(data[selected_column]).words.pluralize)
+          col2.dataframe(data)
+      elif option == "Lematize":
+        pass
+      elif option =="Definitions":
+        pass
+      elif option == "Spelling Correction":
+        pass
+      elif option=="Spell Check":
+        pass
+      elif option=="Word Counts":
+        pass
+      elif option == "N Grams":
+        pass
+      elif option == "Text Classification":
+        pass
+      
+        
