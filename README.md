@@ -1,5 +1,15 @@
 # Excel for Machine Learning
 ## A No-Code Data Science Studio for Data Preprocessing, EDA, Feature Engineering, and NLP
+## Deployment Links :
+1. Data Preprocessor Software : https://excel-for-machine-learning.streamlit.app/
+2. Automated EDA Software : https://huggingface.co/spaces/Rohith25Jan/Web-Platform-To-Perform-Automated-Exploratory-Data-Analysis
+3. Feature Engineering Software : https://feature-engineering-tool-for-machine-learning.streamlit.app/
+4. EDA Software : https://huggingface.co/spaces/Rohith25Jan/Web-Platform-To-Perform-Exploratory-Data-Analysis
+5. NLP Software : https://nlp-tool-for-machine-learning.streamlit.app/
+
+## Demo Video Link : 
+
+## Project Cover Page
 ![Project Banner](assets/hero-image.png)
 
 ---
