@@ -1,0 +1,41 @@
+PROPRIETARY SOFTWARE LICENSE AGREEMENT
+
+Copyright (c) 2026 Rohith Palyam
+
+All Rights Reserved.
+
+This software project, including but not limited to its source code, compiled code, design,
+architecture, algorithms, models, workflows, documentation, datasets, and associated materials,
+is the exclusive intellectual property of Rohith Palyam and registered rights holders.
+
+This work is protected under the Copyright Act of India and applicable Intellectual Property
+laws of the Government of India. Any associated patent rights, design rights, or related legal
+protections are fully reserved.
+
+Ownership:
+The complete and sole ownership of this software and all derivatives remains with
+Rohith Palyam and other professors from the university MITS the registered contributors. No transfer of ownership is granted.
+
+Restrictions:
+1. Copying of this software, in whole or in part, is strictly prohibited.
+2. Cloning of this repository is strictly prohibited.
+3. Forking of this repository is strictly prohibited.
+4. Modification, reverse engineering, or creation of derivative works is prohibited.
+5. Redistribution, sublicensing, sharing, or resale is prohibited.
+6. Commercial or non-commercial use without prior written permission is prohibited.
+7. Hosting, mirroring, or deploying this code on other platforms is prohibited.
+
+Limited Permission:
+Viewing the repository for educational or reference purposes only is permitted.
+No other rights are granted, whether express or implied.
+
+Legal Enforcement:
+Any unauthorized use, duplication, or distribution shall constitute infringement
+and may result in civil and/or criminal legal action under the laws of India.
+
+Contact:
+For permissions or licensing requests, contact:
+Rohith Palyam
+rohithpalyamworkmail@gmail.com
+
+END OF LICENSE
